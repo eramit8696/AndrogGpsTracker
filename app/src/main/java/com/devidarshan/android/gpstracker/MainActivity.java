@@ -14,6 +14,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
+import com.google.firebase.iid.FirebaseInstanceId;
+
+import static com.google.android.gms.internal.zzs.TAG;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, LocationListener {
@@ -32,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 .addOnConnectionFailedListener(this)
                 .build();
         txtOutput = (TextView) findViewById(R.id.txtOutput);
+
     }
 
     @Override
@@ -55,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     @Override
     public void onLocationChanged(Location location) {
         Log.e("LOG_TAG", location.toString());
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+        Log.e(TAG, "Refreshed token: " + refreshedToken);
+
         txtOutput.setText(Double.toString(location.getLatitude()));
     }
 

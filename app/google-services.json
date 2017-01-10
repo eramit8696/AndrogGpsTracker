@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "706637018246",
+    "firebase_url": "https://fcmmessage-c3435.firebaseio.com",
+    "project_id": "fcmmessage-c3435",
+    "storage_bucket": "fcmmessage-c3435.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706637018246:android:36757b75d30195f5",
+        "android_client_info": {
+          "package_name": "com.devidarshan.android.fcmmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706637018246-nd75fpji3imoa4ivmahmto498629upd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devidarshan.android.fcmmessage",
+            "certificate_hash": "1353A8D78FE141D6D31D3205F81F3C4F6D67E273"
+          }
+        },
+        {
+          "client_id": "706637018246-3ov4151ou0o2s3aubl0ou54gmcsltj8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp445gKbZTdt4dwsikoAvHgvm2td1Ipug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706637018246-3ov4151ou0o2s3aubl0ou54gmcsltj8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706637018246:android:752c9ba131aa6de2",
+        "android_client_info": {
+          "package_name": "com.devidarshan.android.phpmysqlfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706637018246-o5k1atccbidsnvg867vfpcrujls8ttp0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devidarshan.android.phpmysqlfcm",
+            "certificate_hash": "1353A8D78FE141D6D31D3205F81F3C4F6D67E273"
+          }
+        },
+        {
+          "client_id": "706637018246-3ov4151ou0o2s3aubl0ou54gmcsltj8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp445gKbZTdt4dwsikoAvHgvm2td1Ipug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706637018246-3ov4151ou0o2s3aubl0ou54gmcsltj8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706637018246:android:05267b78a852335a",
+        "android_client_info": {
+          "package_name": "com.devidarshan.android.gpstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706637018246-lbg7nav67viktvlab5dfhueqqpcv51ar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devidarshan.android.gpstracker",
+            "certificate_hash": "1353A8D78FE141D6D31D3205F81F3C4F6D67E273"
+          }
+        },
+        {
+          "client_id": "706637018246-3ov4151ou0o2s3aubl0ou54gmcsltj8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp445gKbZTdt4dwsikoAvHgvm2td1Ipug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706637018246-3ov4151ou0o2s3aubl0ou54gmcsltj8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
